@@ -4,6 +4,15 @@
 	<meta charset="utf-8">
 	<title>University of Iowa Brand Bar</title>
 	<link type="text/css" rel="stylesheet" href="css/uiowa-bar.css" media="all">
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K7W3K5P');
+		//--><!]]>
+	</script>
 </head>
 <body>
 	<div id="uiowa-bar" role="region" aria-label="University of Iowa global header">
@@ -18,15 +27,13 @@
 			<ul class="links">
 				<li><a href="https://uiowa.edu">Sample Link</a></li>
 			</ul>
-			<form class="search-form search-google-appliance-search-form" aria-label="site search" role="form" action="https://search.uiowa.edu/" method="post" id="uiowa-bar-search-form" accept-charset="UTF-8">
+			<form class="search-form search-google-appliance-search-form" aria-label="site search" role="form" action="https://search.uiowa.edu/search" method="get" id="uiowa-bar-search-form" accept-charset="UTF-8">
 				<div>
 					<div class="form-item form-type-textfield form-item-search-terms form-group">
 						<label for="edit-search-terms">Search </label>
-						<input placeholder="Search this site" class="form-control form-text" type="text" id="edit-search-terms" name="search-terms" value="" size="15" maxlength="256">
+						<input placeholder="Search this site" class="form-control form-text" type="text" id="q" name="q" value="" size="15" maxlength="256">
 					</div>
-					<input type="submit" id="edit-submit-search" name="btnG" value="Search" class="form-submit btn btn-default">
-					<input type="hidden" name="form_build_id" value="form-M9gp3WIkesX-wUFhtQj2PSYCijmZ7UipjWVKBp1Vq-w">
-					<input type="hidden" name="form_id" value="uiowa_bar_search_form">
+					<input type="submit" id="edit-submit-search" value="Search" class="form-submit btn btn-default">
 				</div>
 			</form>
 		</div>
