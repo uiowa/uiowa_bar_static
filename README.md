@@ -4,6 +4,10 @@ This repo provides assets to implement the [University of Iowa Branding Bar](htt
 
 > If you are looking to implement the branding bar on a Drupal web site, you are encouraged to use the [uiowa_bar](https://github.com/uiowa/uiowa_bar) module.
 
+### Example
+
+You can see a live example of the branding bar at https://uiowa.github.io/uiowa_bar_static/
+
 ## Implementation
 
 You can make a local copy of the uiowa-bar.css file and the appropriate png file for either the University or UIHC wordmark. You can then add the code found in the uiowa.html or uihc.html file to your site/application after the `<body>` tag or Skip to Content Link. Add the reference to the CSS file and update the source for the PNG file in the `<image>` tag in the `<svg>` tag.
